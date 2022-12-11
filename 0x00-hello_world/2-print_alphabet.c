@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main - print the letters of the alphabet
+ * main - entry point
  *
  * Description: print the letters of the alphabet
  *
@@ -10,14 +9,14 @@
 
 int main(void)
 {
-	int i = 97;
+	char c;
 
-	while (i < 123)
-	{
-		putchar(i);
-		i++;
-	}
-	putchar(10);
-
-	return(0);
+	c = 'a';
+		while
+			(c <= 'z') {
+				putchar(c);
+				c++;
+			}
+ 	        putchar('\n');
+		return (0);
 }
